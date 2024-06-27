@@ -2,10 +2,10 @@
 title: Comprendre le fonctionnement d’une application personnalisée
 description: Fonctionnement interne d’une application personnalisée  [!DNL Asset Compute Service]  pour faciliter votre compréhension.
 exl-id: a3ee6549-9411-4839-9eff-62947d8f0e42
-source-git-commit: 5257e091730f3672c46dfbe45c3e697a6555e6b1
+source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 80%
 
 ---
 
@@ -15,11 +15,11 @@ Utilisez l’illustration suivante pour comprendre le workflow de bout en bout l
 
 ![Workflow des applications personnalisées](assets/customworker.svg)
 
-*Figure : Procédure de traitement d’une ressource à l’aide d’[!DNL Asset Compute Service].*
+*Figure : Étapes à suivre lors du traitement d’une ressource à l’aide d’Adobe [!DNL Asset Compute Service].*
 
 ## Enregistrement {#registration}
 
-Le client doit appeler une fois [`/register`](api.md#register) avant la première requête à [`/process`](api.md#process-request) pour configurer et récupérer l’URL du journal afin de recevoir les événements [!DNL Adobe I/O] pour Adobe Asset Compute.
+Le client doit appeler [`/register`](api.md#register) une fois avant la première requête à [`/process`](api.md#process-request) afin qu’il puisse configurer et récupérer l’URL du journal pour recevoir l’Adobe [!DNL I/O Events] Événements pour l’Asset compute des Adobes.
 
 ```sh
 curl -X POST \
@@ -70,7 +70,7 @@ Vous trouverez ci-dessous un exemple de requête de traitement d’application p
 
 L’[!DNL Asset Compute Service] envoie les requêtes de rendu d’application personnalisée à l’application personnalisée. Il utilise une requête HTTP POST sur l’URL de l’application fournie. Il s’agit de l’URL d’action web sécurisée d’App Builder. Toutes les requêtes utilisent le protocole HTTPS pour maximiser la sécurité des données.
 
-Le [SDK Asset Compute](https://github.com/adobe/asset-compute-sdk#adobe-asset-compute-worker-sdk) utilisé par une application personnalisée traite la requête HTTP POST. Il gère également le téléchargement de la source, le chargement de rendus, l’envoi d’événements [!DNL Adobe I/O] et la gestion des erreurs.
+Le [SDK Asset Compute](https://github.com/adobe/asset-compute-sdk#adobe-asset-compute-worker-sdk) utilisé par une application personnalisée traite la requête HTTP POST. Il gère également le téléchargement de la source, le chargement des rendus, l’envoi de l’Adobe [!DNL I/O Events] et gestion des erreurs.
 
 <!-- TBD: Add the application diagram. -->
 
@@ -96,7 +96,7 @@ exports.main = worker(async (source, rendition) => {
 
 ### Téléchargement des fichiers source {#download-source}
 
-Une application personnalisée traite uniquement des fichiers locaux. Le téléchargement du fichier source est géré par le [SDK Asset Compute](https://github.com/adobe/asset-compute-sdk#adobe-asset-compute-worker-sdk).
+Une application personnalisée traite uniquement des fichiers locaux. La variable [ASSET COMPUTE SDK](https://github.com/adobe/asset-compute-sdk#adobe-asset-compute-worker-sdk) gère le téléchargement du fichier source.
 
 ### Création de rendu {#rendition-creation}
 
@@ -112,15 +112,15 @@ Pour plus d’informations sur les paramètres de rappel de rendu, voir [API du 
 
 Une fois chaque rendu créé et stocké dans un fichier avec le chemin d’accès fourni par `rendition.path`, le [SDK Asset Compute](https://github.com/adobe/asset-compute-sdk#adobe-asset-compute-worker-sdk) les charge vers un espace de stockage dans le cloud (AWS ou Azure). Une application personnalisée obtient plusieurs rendus simultanés si, et seulement si, la requête entrante comporte plusieurs rendus pointant vers la même URL d’application. Le chargement vers l’espace de stockage dans le cloud est effectué après chaque rendu et avant l’exécution du rappel pour le rendu suivant.
 
-`batchWorker()` a un comportement différent, car il traite tous les rendus, et ne les charge qu’après les avoir tous traités.
+La variable `batchWorker()` a un comportement différent. Il traite tous les rendus et les charge uniquement une fois qu’ils ont tous été traités.
 
 ## Événements [!DNL Adobe I/O] {#aio-events}
 
-Le SDK envoie des événements [!DNL Adobe I/O] pour chaque rendu. Ces événements sont de type `rendition_created` ou `rendition_failed`, selon le résultat. Pour plus d’informations sur les événements, voir [Événements asynchrones Asset Compute](api.md#asynchronous-events).
+Le SDK envoie l’Adobe [!DNL I/O Events] pour chaque rendu. Ces événements sont de type `rendition_created` ou `rendition_failed`, selon le résultat. Pour plus d’informations, voir [Asset compute d’événements asynchrones](api.md#asynchronous-events).
 
 ## Recevoir des événements [!DNL Adobe I/O]  {#receive-aio-events}
 
-Le client interroge le journal des événements [[!DNL Adobe I/O] ](https://www.adobe.io/apis/experienceplatform/events/ioeventsapi.html#/Journaling) en fonction de sa logique de consommation. L’URL de journal initiale est celle fournie dans la réponse de l’API `/register`. Il est possible d’identifier les événements à l’aide du paramètre `requestId`, présent dans les événements. C’est le même que celui renvoyé dans `/process`. Chaque rendu comporte un événement distinct, envoyé dès que le rendu a été chargé (ou a échoué). Une fois qu’il reçoit un événement correspondant, le client peut afficher ou gérer les rendus résultants.
+Le client interroge l’Adobe [!DNL I/O Events] journal en fonction de sa logique de consommation. L’URL de journal initiale est celle fournie dans la réponse de l’API `/register`. Il est possible d’identifier les événements à l’aide du paramètre `requestId`, présent dans les événements. C’est le même que celui renvoyé dans `/process`. Chaque rendu comporte un événement distinct, envoyé dès que le rendu a été chargé (ou a échoué). Lorsqu’il reçoit un événement correspondant, le client peut afficher ou gérer les rendus résultants.
 
 La bibliothèque JavaScript [`asset-compute-client`](https://github.com/adobe/asset-compute-client#usage) facilite l’interrogation du journal en utilisant la méthode `waitActivation()` pour obtenir tous les événements.
 
@@ -140,7 +140,7 @@ await Promise.all(events.map(event => {
 }));
 ```
 
-Pour plus d’informations sur la façon d’obtenir des événements de journal, voir API des événements [[!DNL Adobe I/O] ](https://www.adobe.io/apis/experienceplatform/events/ioeventsapi.html#!adobedocs/adobeio-events/master/events-api-reference.yaml).
+Pour plus d’informations sur l’obtention d’événements de journal, voir Adobe [[!DNL I/O Events] API](https://developer.adobe.com/events/docs/guides/api/journaling_api/).
 
 <!-- TBD:
 * Illustration of the controls/data flow.

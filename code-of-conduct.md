@@ -1,18 +1,17 @@
 ---
-source-git-commit: 324f414164ccbb712e7197ddc68075ea9c238cae
-workflow-type: ht
-translation-type: ht
-source-wordcount: '431'
+source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
 # Code de conduite d’Adobe
 
-## Notre engagement
+## Engagement d’Adobe
 
-Pour favoriser un environnement ouvert et convivial, nous nous engageons, en tant que contributeurs et responsables, à faire en sorte que la participation à notre projet et à notre communauté ne soit pas source de harcèlement, quels que soient l’âge, la taille, le handicap, l’origine ethnique, l’identité et l’expression de genre, le niveau d’expérience, la nationalité, l’apparence personnelle, la race, la religion ainsi que l’identité et l’orientation sexuelles.
+Pour favoriser un environnement ouvert et accueillant, les contributeurs et contributrices et les personnes responsables s’engagent à faire de la participation à un projet et à la communauté une expérience sans harcèlement pour tout le monde. Toutes les personnes peuvent profiter de cette expérience, peu importe l’âge, la corpulence, le handicap, l’origine ethnique, l’identité et l’expression de genre. Peu importe le niveau d’expérience, la nationalité, l’apparence personnelle, l’origine, la religion ou l’identité et l’orientation sexuelles.
 
-## Nos normes
+## Normes d’Adobe
 
 Voici quelques exemples de comportements qui contribuent à la création d’un environnement positif :
 
@@ -30,22 +29,22 @@ Voici quelques exemples de comportement de participants inacceptable :
 * Publier les informations privées d’autres utilisateurs, telles qu’une adresse physique ou électronique, sans autorisation explicite
 * Autre comportement pouvant raisonnablement être considéré comme inapproprié dans un environnement professionnel
 
-## Nos responsabilités
+## Responsabilités d’Adobe
 
-Les responsables du projet sont chargés de clarifier les normes en matière de comportement acceptable et doivent prendre des mesures correctives appropriées et justes en cas de comportement inacceptable.
+Les personnes responsables du projet sont chargées de clarifier les normes en matière de comportement acceptable et doivent prendre des mesures correctives appropriées et justes en cas de comportement inacceptable.
 
-Les responsables du projet ont le droit et la responsabilité de supprimer, de modifier ou de refuser les commentaires, les validations, le code, les modifications de wiki, les problèmes et autres contributions qui ne respectent pas ce code de conduite, ou de bannir temporairement ou définitivement les contributeurs pour d’autres comportements qu’ils considèrent inappropriés, menaçants, injurieux ou nuisibles.
+Les personnes responsables du projet ont le droit et la responsabilité de supprimer, modifier ou rejeter les commentaires. Cette surveillance inclut les engagements, le code, les modifications de wiki, les problèmes ou d’autres contributions non conformes à ce code de conduite. Les personnes responsables peuvent également bannir temporairement ou définitivement les contributeurs et contributrices pour d’autres comportements qu’elles considèrent inappropriés, menaçants, injurieux ou nuisibles.
 
 ## Portée
 
-Ce code de conduite s’applique à la fois à l’espace du projet et aux environnements publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentations d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle de projet, la publication par le biais d’un compte de média social officiel ou l’intervention, en tant que représentant désigné, à l’occasion d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
+Ce code de conduite s’applique à la fois à l’espace du projet et aux environnements publics lorsqu’une personne représente le projet ou sa communauté. Les exemples de représentation d’un projet ou d’une communauté comprennent l’utilisation d’une adresse e-mail officielle du projet, la publication par le biais d’un compte officiel de médias sociaux, ou également le fait d’être une personne représentante désignée lors d’un événement en ligne ou hors ligne. Les personnes responsables du projet peuvent définir et clarifier davantage la représentation d’un projet.
 
 ## Application
 
-Les cas de comportements abusifs, harcelants ou tout autre comportement inacceptable peuvent être signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes les plaintes seront examinées et analysées ; elles se traduiront par une réponse jugée nécessaire et adaptée aux circonstances. L’équipe du projet est tenue de maintenir la confidentialité concernant le déclarant d’un incident. Des informations supplémentaires sur les stratégies d’application spécifiques peuvent être publiées séparément.
+Les cas de comportements abusifs, harcelants ou tout autre comportement inacceptable peuvent être signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes les réclamations sont examinées et analysées. Elles peuvent aboutir à une réponse jugée nécessaire et adaptée aux circonstances. L’équipe du projet est tenue de maintenir la confidentialité en ce qui concerne la personne qui déclare un incident. Des informations supplémentaires sur les politiques d’application spécifiques peuvent être publiées séparément.
 
 Les responsables de projet qui ne suivent pas ou n’appliquent pas en toute bonne foi le code de conduite s’exposent temporairement ou de façon permanente à des répercussions définies par d’autres membres de la direction du projet.
 
 ## Attribution
 
-Le présent code de conduite est une adaptation de la [Charte du contributeur](https://contributor-covenant.org) version 1.4, disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/).
+Ce code de conduite provient de l’adaptation de la version 1.4 de la [Charte des contributeurs et contributrices](https://www.contributor-covenant.org/), disponible dans la [Charte des contributeurs et contributrices](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
