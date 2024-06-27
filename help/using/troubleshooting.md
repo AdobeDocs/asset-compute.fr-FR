@@ -2,10 +2,10 @@
 title: Résolution des problèmes liés à [!DNL Asset Compute Service]
 description: Dépanner et déboguer les applications personnalisées à l’aide d’ [!DNL Asset Compute Service].
 exl-id: 017fff91-e5e9-4a30-babf-5faa1ebefc2f
-source-git-commit: 5257e091730f3672c46dfbe45c3e697a6555e6b1
+source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 76%
 
 ---
 
@@ -18,17 +18,17 @@ Voici quelques conseils de dépannage génériques qui peuvent vous aider à ré
 * Assurez-vous que les erreurs pouvant provenir du nettoyage en cas d’échec ne génèrent pas leurs propres erreurs en masquant le problème d’origine.
 
 * Lors du démarrage initial de l’outil de développement avec une nouvelle intégration [!DNL Asset Compute Service], il se peut que la première demande de traitement échoue, car le journal des événements Asset Compute n’est pas entièrement configuré. Patientez un certain temps pour que le journal soit configuré avant d’envoyer une autre demande.
-* Si vous rencontrez des erreurs lors de l’envoi de requêtes `/register` ou `/process` Asset Compute, assurez-vous que toutes les API nécessaires sont ajoutées au projet et à l’espace de travail [!DNL Adobe I/O], c’est-à-dire à Asset Compute et à Events [!DNL Adobe I/O], Events Management [!DNL Adobe I/O] et Runtime [!DNL Adobe I/O].
+* Assurez-vous que toutes les API requises - Asset compute, Adobe [!DNL I/O Events], la gestion des événements et l’exécution sont inclus dans votre Adobe [!DNL `I/O Project`] et Workspace à éviter `/register` ou `/process` erreurs de requête.
 
-## Problèmes de connexion via l’interface en ligne de commande [!DNL Adobe I/O] {#login-via-aio-cli}
+## Problèmes de connexion par Adobe [!DNL aio-cli] {#login-via-aio-cli}
 
-Si vous rencontrez des problèmes lors de la connexion à [!DNL Adobe Developer Console] [ par le biais de l’interface en ligne de commande  [!DNL Adobe I/O] ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#3-signing-in-from-cli), ajoutez manuellement les informations d’identification requises pour le développement, le test et le déploiement de votre application personnalisée :
+Si vous rencontrez des problèmes lors de la connexion à la variable [!DNL Adobe Developer Console] [par l’Adobe [!DNL aio-cli]](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#3-signing-in-from-cli), puis ajoutez manuellement les informations d’identification requises pour le développement, le test et le déploiement de votre application personnalisée :
 
-1. Accédez à votre projet et à votre espace de travail et à votre projet Adobe Developer App Builder sur [Adobe Developer Console](https://console.adobe.io/), puis appuyez sur **[!UICONTROL Télécharger]** dans le coin supérieur droit. Ouvrez ce fichier JSON et enregistrez-le à un emplacement sécurisé sur votre ordinateur.
+1. Accédez à votre projet et à votre espace de travail et à votre projet Adobe Developer App Builder sur [Adobe Developer Console](https://developer.adobe.com/console/user/servicesandapis), puis appuyez sur **[!UICONTROL Télécharger]** dans le coin supérieur droit. Ouvrez ce fichier JSON et enregistrez-le à un emplacement sécurisé sur votre ordinateur.
 
 1. Accédez au fichier ENV dans votre application Adobe Developer App Builder.
 
-1. Ajoutez les informations d’identification de Runtime [!DNL Adobe I/O]. Récupérez les informations d’identification Runtime [!DNL Adobe I/O] à partir du fichier JSON téléchargé. Les informations d’identification se trouvent dans `project.workspace.services.runtime`. Ajoutez les informations d’identification Runtime [!DNL Adobe I/O] dans les variables `AIO_runtime_XXX` :
+1. Ajouter l’Adobe [!DNL I/O Runtime] informations d’identification. Obtention de l’Adobe [!DNL I/O Runtime] informations d’identification du fichier JSON téléchargé. Les informations d’identification se trouvent dans `project.workspace.services.runtime`. Ajoutez les informations d’identification Runtime [!DNL Adobe I/O] dans les variables `AIO_runtime_XXX` :
 
    ```json
    AIO_runtime_auth=

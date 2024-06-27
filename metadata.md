@@ -12,10 +12,10 @@ feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/asset-compute.fr-FR
 index: y
 recommendations: noDisplay
-source-git-commit: cb87ab6081d53610acf27419fa5103b3ae1ead03
+source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 92%
 
 ---
 
@@ -28,10 +28,10 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 |--- |--- |
 | solution-title | Utilisé dans l’en-tête de l’article en tant que lien. |
 | solution-hub-url | Ouvre la page hub d’assistance. |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté. |
+| solution-icon | Affiche une icône de solution à côté du titre de la solution. Pas encore implémenté. |
 | getting-started-url | Lien vers la page de prise en main. |
-| tutorials-url | Lien vers les tutoriels vidéo : tutoriels helpx ou KT. |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
+| tutorials-url | Lien vers des tutoriels vidéo : tutoriels Helpx ou tutoriels de transfert de connaissances |
+| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le volet de droite. La valeur par défaut est 2. |
 | git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne. |
 
 Dans le fichier TOC.md

@@ -2,10 +2,10 @@
 title: Définition de l’environnement de développement requis pour [!DNL Asset Compute Service]
 description: Configuration de l’environnement de développement  [!DNL Asset Compute Service]  pour commencer à créer et tester le code personnalisé.
 exl-id: 91c12889-01d8-4757-9bdd-f73c491cd9d5
-source-git-commit: 5257e091730f3672c46dfbe45c3e697a6555e6b1
+source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,9 @@ Pour créer une configuration qui permet de développer pour [!DNL Asset Compute
 
    * [Git](https://git-scm.com/)
    * [Docker Desktop](https://www.docker.com/get-started)
-   * [NodeJS](https://nodejs.org) (LTS v14, les versions impaires ne sont pas recommandées) et [NPM](https://www.npmjs.com). L’utilisateur d’OSX HomeBrew peut exécuter `brew install node` pour installer l’un et l’autre. Sinon, vous pouvez effectuer le téléchargement sur la [page de téléchargement de NodeJS](https://nodejs.org/fr/)
-   * Comme IDE adapté à NodeJS, nous recommandons [Visual Studio Code (VS Code)](https://code.visualstudio.com), car c’est l’IDE pris en charge pour le débogueur. Vous pouvez utiliser un autre IDE à titre d’éditeur de code, mais il n’y a pas encore de prise en charge pour une utilisation avancée (un débogueur, par exemple).
-   * Installer la dernière [[!DNL Adobe I/O] ligne de commande](https://github.com/adobe/aio-cli) (`aio`)
+   * [NodeJS](https://nodejs.org) (LTS v14, les versions impaires ne sont pas recommandées) et [NPM](https://www.npmjs.com). L’utilisateur de OS X HomeBrew peut le faire `brew install node` pour installer les deux. Sinon, vous pouvez effectuer le téléchargement sur la [page de téléchargement de NodeJS](https://nodejs.org/fr/)
+   * Adobe recommande un IDE adapté à NodeJS. [Visual Studio Code (VS Code)](https://code.visualstudio.com) car il s’agit de l’IDE pris en charge pour le débogueur. Vous pouvez utiliser un autre IDE comme éditeur de code, mais l’utilisation avancée (par exemple, le débogueur) n’est pas encore prise en charge.
+   * Installation du dernier Adobe [[!DNL aio-cli]](https://github.com/adobe/aio-cli) (`aio`)
    <!-- - install using `npm install -g @adobe/aio-cli@7.1.0` -->
 
 1. Veillez à respecter les [conditions préalables](/help/using/understand-extensibility.md#prerequisites-and-provisioning)
@@ -34,11 +34,11 @@ Pour créer une configuration qui permet de développer pour [!DNL Asset Compute
 >For now, use [!DNL Adobe I/O] CLI v7.1.0 of and do not use [!DNL Adobe I/O] CLI v8.
 -->
 
-## Configurer un projet App Builder {#create-App-Builder-project}
+## Configuration d’un projet App Builder {#create-App-Builder-project}
 
-1. Assurez-vous du rôle d’administrateur système ou de développeur dans l’organisation [!DNL Experience Cloud]. Un administrateur système peut configurer ce rôle dans [Admin Console](https://adminconsole.adobe.com/overview).
+1. Assurez-vous qu’il existe un rôle d’administrateur ou de développeur système dans la variable [!DNL Experience Cloud] organisation. Un administrateur système, dans la variable [Admin Console](https://adminconsole.adobe.com/overview), configure ce rôle.
 
-1. Connectez-vous à [Adobe Developer Console](https://console.adobe.io/). Assurez-vous que vous faites partie de la même organisation [!DNL Experience Cloud] que l’intégration [!DNL Experience Manager] as a [!DNL Cloud Service]. Pour plus d’informations sur Adobe Developer Console, consultez la [documentation de la console](https://www.adobe.io/apis/experienceplatform/console/docs.html).
+1. Connectez-vous à [Adobe Developer Console](https://developer.adobe.com/console/user/servicesandapis). Assurez-vous que vous faites partie de la même organisation [!DNL Experience Cloud] que l’intégration [!DNL Experience Manager] as a [!DNL Cloud Service]. Pour plus d’informations sur Adobe Developer Console, voir [Documentation de la console](https://developer.adobe.com/developer-console/docs/guides/).
 
 1. [Créer un projet App Builder](https://developer.adobe.com/app-builder/docs/getting_started/first_app/). Cliquez sur **[!UICONTROL Créer un projet]** > **[!UICONTROL Projet à partir d’un modèle]**. Sélectionnez App Builder. Un projet App Builder est créé avec deux espaces de travail : `Production` et `Stage`. Ajoutez des espaces de travail supplémentaires, par exemple `Development`, selon les besoins.
 
@@ -46,7 +46,7 @@ Pour créer une configuration qui permet de développer pour [!DNL Asset Compute
 
 ## Étape suivante {#next-step}
 
-Maintenant que votre environnement est configuré, vous êtes prêt à [créer une application personnalisée](develop-custom-application.md).
+Une fois votre environnement configuré, vous êtes prêt à [création d’une application personnalisée](develop-custom-application.md).
 
 <!-- More ideas:
  
