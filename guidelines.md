@@ -1,51 +1,51 @@
 ---
 source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 # Instructions pour contribuer à la documentation
 
 ## Philosophie de la documentation
 
-Les utilisateurs travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distinguent de leurs concurrents. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire. Documentation qui permet aux clients d’utiliser immédiatement leur investissement et maximiser le retour sur investissement.
+Les utilisateurs et utilisatrices travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distinguent de la concurrence. Par conséquent, il est essentiel que lorsqu’Adobe fournit des outils avancés, ceux-ci soient accompagnés d’une documentation précise et claire. Documentation qui permet aux clientes et clients d’utiliser immédiatement leur investissement et de maximiser le retour sur investissement.
 
-L’objectif est de placer cette documentation dès que possible entre les mains des utilisateurs. Adobe privilégie donc une documentation précise et compréhensible, et s’emploie à la mettre à jour et à l’améliorer en permanence.
+L’objectif est de placer cette documentation dès que possible entre les mains des utilisateurs et utilisatrices. Adobe privilégie donc une documentation précise et compréhensible, et s’emploie à la mettre à jour et à l’améliorer en permanence.
 
 ## Contributions à la documentation
 
-Afin d’améliorer continuellement la documentation, toute la communauté des utilisateurs est la bienvenue pour contribuer à la documentation. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
+Pour améliorer continuellement la documentation, toute la communauté d’utilisateurs et d’utilisatrices peut apporter sa contribution. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
 
 ## Normes de la documentation
 
-Toute contribution à la documentation, sous la forme d’une requête d’extraction ou d’un problème, doit être conforme aux normes de contribution et de documentation d’Adobe.
+Toute contribution à la documentation sous la forme d’une demande d’extraction ou d’un problème doit être conforme aux normes de contribution et de documentation d’Adobe.
 
-### Les cas d’utilisation standard sont documentés dans Adobe
+### Les cas d’utilisation standard sont documentés dans Adobe.
 
-La documentation couvre les cas d’utilisation standard. Les cas d’utilisation au-delà de la portée de l’installation et de l’utilisation standard et prises en charge du produit ne font pas partie de la documentation.
+La documentation couvre les cas d’utilisation standard. Les cas d’utilisation ne relevant pas des installations et des utilisations du produit standard et prises en charge ne font pas partie de la documentation.
 
-Les exceptions à cette règle sont les notes de mise à jour dans lesquelles les problèmes connus peuvent être répertoriés avec les solutions possibles approuvées par l’Adobe.
+Font exception à cette règle les notes de mise à jour, qui permettent de répertorier les problèmes connus ainsi que les solutions possibles approuvées par Adobe.
 
 ### Les contributions à la documentation n’ont pas pour objet de répondre aux requêtes des clients.
 
-Toutes les idées sous forme de contributions susceptibles d’améliorer la documentation sont les bienvenues. Toutefois, les commentaires, les problèmes et les demandes d’extraction sont destinés à *contributions* uniquement. Il ne s’agit pas de répondre à vos questions sur l’utilisation du produit, de mettre en oeuvre des projets ou de résoudre des problèmes techniques.
+Toutes les idées sous forme de contributions susceptibles d’améliorer la documentation sont les bienvenues. Toutefois, les commentaires, les problèmes et les requêtes d’extraction sont destinés uniquement aux *contributions*. Ils n’ont pas pour but de répondre à vos questions sur l’utilisation du produit, de mettre en œuvre des projets ou de résoudre des problèmes techniques.
 
-Toute question relative à l’utilisation ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [[!DNL Experience Manager] portail de Service clientèle](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=fr#home) ou posée à la communauté [[!DNL Experience Manager] ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr).
+Toute question relative à l’utilisation ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [[!DNL Experience Manager] portail de service clientèle](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=fr#home) ou posée à la communauté [[!DNL Experience Manager] ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr).
 
-***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe.*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance est refusée.
+***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe***, et toute contribution de ce type ayant pour but de rechercher des réponses aux questions liées au support technique sera refusée.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
 Si vous créez une demande pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème à l’aide du lien **Modifier cette page** sur une page de documentation, le problème est créé automatiquement avec un lien vers la page.
 
-Ce processus ne s’applique pas aux requêtes d’extraction, car les requêtes d’extraction par nature référencent les pages concernées.
+Cette méthode ne s’applique pas aux requêtes d’extraction qui, par nature, font référence aux pages concernées.
 
 ## Directives relatives à la documentation
 
 Adobe demande que toutes les contributions à notre documentation suivent certaines directives de style.
 
-Suivez ces instructions pour simplifier la révision de votre contribution et, par conséquent, l’intégration dans la documentation d’Adobe est plus rapide.
+Suivre ces directives facilite la révision et l’intégration rapide de votre contribution dans la documentation Adobe.
 
 ### Langue et style
 
@@ -55,9 +55,9 @@ Suivez ces instructions pour simplifier la révision de votre contribution et, p
 * Veillez à ce que les expressions restent le plus simple possible.
 * Restez clair et concis.
 
-N’oubliez pas que les lecteurs de la documentation sont internationaux et ne peuvent pas être des locuteurs anglais natifs ou bilingues. Évitez les expressions familières et restez aussi clair et simple que possible.
+Souvenez-vous que les lecteurs et lectrices de la documentation sont internationaux et peuvent ne pas être des locuteurs et locutrices anglais natifs ou bilingues. Évitez les expressions familières et faites preuve d’autant de clarté et de simplicité que possible.
 
-#### Suivez le guide de style de Microsoft
+#### Suivre le guide de style Microsoft
 
 [Le guide de style Microsoft](https://learn.microsoft.com/en-us/style-guide/welcome/) est disponible gratuitement et concerne la documentation logicielle.
 

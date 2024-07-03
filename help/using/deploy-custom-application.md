@@ -3,9 +3,9 @@ title: Déploiement d’une application personnalisée  [!DNL Asset Compute Serv
 description: Déployer une application personnalisée  [!DNL Asset Compute Service] .
 exl-id: a68d4f59-8a8f-43b2-8bc6-19320ac8c9ef
 source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Assurez-vous que votre projet App Builder et votre espace de travail corresponde
 
 >[!CAUTION]
 >
->N’utilisez pas d’espace de travail personnel dans les cas critiques [!DNL Experience Manager] des environnements.
+>N’utilisez pas un espace de travail personnel dans les environnements [!DNL Experience Manager] critiques.
 
 >[!MORELIKETHIS]
 >
->* [Comprendre et gérer les environnements dans  [!DNL Experience Manager]  as a  [!DNL Cloud Service]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments).
+>* [Comprendre et gérer les environnements dans  [!DNL Experience Manager]  as a  [!DNL Cloud Service]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments).

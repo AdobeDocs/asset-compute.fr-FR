@@ -1,13 +1,13 @@
 ---
 source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-# Contribution à la documentation
+# Contribuer à la documentation
 
-Merci d’avoir choisi de contribuer à la documentation ! Adobe accueille favorablement les contributions de l’ensemble de la communauté des lecteurs, des lectrices, des collaborateurs et des collaboratrices d’Adobe.
+Merci d’avoir choisi de contribuer à la documentation. Adobe accueille favorablement les contributions de l’ensemble de la communauté des lecteurs, des lectrices, des collaborateurs et des collaboratrices d’Adobe.
 
 Ce fichier décrit comment contribuer à la documentation ainsi que les directives à suivre lors de l’apport de vos contributions.
 
