@@ -1,8 +1,8 @@
 ---
 source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 # Documentation d’Adobe Asset Compute Service

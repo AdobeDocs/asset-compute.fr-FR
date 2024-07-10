@@ -9,9 +9,9 @@ user-guide-title: Guide d’Asset Compute Service
 user-guide-description: Cette documentation concerne les tâches  [!DNL Asset Compute Service]  telles que le développement, la gestion, le déploiement et le dépannage de votre code personnalisé.
 breadcrumb-title: Guide d’Asset Compute Service
 source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '86'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 + [Guide de l’utilisateur d’Asset Compute Service](home.md)
 + [Présentation](introduction.md)
-+ [Formats de fichiers pris en charge](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support)
++ [Formats de fichiers pris en charge](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/file-format-support)
 + [Architecture](architecture.md)
 + [Références d’API](api.md)
 + Extension d’Asset Compute Service {#extend}
