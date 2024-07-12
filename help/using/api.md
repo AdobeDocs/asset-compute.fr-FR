@@ -3,7 +3,7 @@ title: « API HTTP [!DNL Asset Compute Service] »
 description: « API HTTP [!DNL Asset Compute Service] pour créer des applications personnalisées. »
 exl-id: 4b63fdf9-9c0d-4af7-839d-a95e07509750
 source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2862'
 ht-degree: 100%
 

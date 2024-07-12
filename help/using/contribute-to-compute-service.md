@@ -3,7 +3,7 @@ title: Contribuez aux composants open source d’ [!DNL Asset Compute Service]
 description: Contribuez aux composants open source d’ [!DNL Asset Compute Service].
 exl-id: 99a4b4d9-4709-4f8e-9f8c-96ba1783c4c3
 source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

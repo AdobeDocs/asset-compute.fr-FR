@@ -3,7 +3,7 @@ title: « Guide de l’utilisateur dʼ[!DNL Adobe Asset Compute Service] »
 description: Cette documentation concerne les tâches  [!DNL Asset Compute Service] , avec notamment l’introduction, le développement, la gestion, le déploiement et le dépannage de votre code personnalisé.
 exl-id: 5acf87d1-a391-4802-bfce-e367fc8564df
 source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
