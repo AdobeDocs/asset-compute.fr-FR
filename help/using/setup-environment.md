@@ -3,9 +3,9 @@ title: Définition de l’environnement de développement requis pour [!DNL Asse
 description: Configuration de l’environnement de développement [!DNL Asset Compute Service] pour commencer à créer et tester le code personnalisé.
 exl-id: 91c12889-01d8-4757-9bdd-f73c491cd9d5
 source-git-commit: db38b9dc27505aa7e04cf58a646005fc2e0e8782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Pour créer une configuration qui permet de développer pour [!DNL Asset Compute
 
    >[!NOTE]
    >
-   >JWT est obsolète et la clé privée n’est pas disponible en téléchargement. Pendant que nous travaillons à la mise à jour des outils de test, notez que les programmes de travail personnalisés créés à l’aide d’OAuth peuvent être déployés, mais les outils de développement ne fonctionneraient pas.
+   >JWT est obsolète et la clé privée ne peut être téléchargée. Pendant que nous travaillons à la mise à jour des outils de test, notez que les programmes de travail personnalisés créés à l’aide d’OAuth peuvent être déployés, mais les outils de développement ne fonctionneront pas.
 
 ## Étape suivante {#next-step}
 
