@@ -31,7 +31,7 @@ Font exception à cette règle les notes de mise à jour, qui permettent de rép
 
 Toutes les idées sous forme de contributions susceptibles d’améliorer la documentation sont les bienvenues. Toutefois, les commentaires, les problèmes et les requêtes d’extraction sont destinés uniquement aux *contributions*. Ils n’ont pas pour but de répondre à vos questions sur l’utilisation du produit, de mettre en œuvre des projets ou de résoudre des problèmes techniques.
 
-Toute question relative à l’utilisation ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [[!DNL Experience Manager] portail de service clientèle](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=fr#home) ou posée à la communauté [[!DNL Experience Manager] ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr).
+Toute question relative à l’utilisation ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [[!DNL Experience Manager] portail de service clientèle](https://experienceleague.adobe.com/fr?support-solution=Experience+Manager&amp;lang=fr#home) ou posée à la communauté [[!DNL Experience Manager] ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr).
 
 ***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe***, et toute contribution de ce type ayant pour but de rechercher des réponses aux questions liées au support technique sera refusée.
 
