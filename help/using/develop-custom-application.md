@@ -2,9 +2,9 @@
 title: Développer pour [!DNL Asset Compute Service]
 description: Créer des applications personnalisées à l’aide d’ [!DNL Asset Compute Service].
 exl-id: a0c59752-564b-4bb6-9833-ab7c58a7f38e
-source-git-commit: db38b9dc27505aa7e04cf58a646005fc2e0e8782
-workflow-type: ht
-source-wordcount: '1542'
+source-git-commit: 94fd8c0888185f64825046b7999655e9501a71fe
+workflow-type: tm+mt
+source-wordcount: '1489'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Assurez-vous qu’[Adobe aio-cli](https://github.com/adobe/aio-cli) est install�
 
    Adobe vous recommande de vous connecter d’abord. Si vous rencontrez des problèmes, appliquez les instructions [pour créer une application sans vous connecter](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#42-developer-is-not-logged-in-as-enterprise-organization-user).
 
-1. Après votre connexion, suivez les invites de l’interface en ligne de commande et sélectionnez les éléments `Organization`, `Project` et `Workspace` à utiliser pour l’application. Choisissez le projet et l’espace de travail que vous avez créés lors de la [configuration de votre environnement](setup-environment.md). À l’invite `Which extension point(s) do you wish to implement ?`, veillez à sélectionner `DX Asset Compute Worker` :
+1. Après votre connexion, suivez les prompts de l’interface en ligne de commande et sélectionnez les éléments `Organization`, `Project` et `Workspace` à utiliser pour l’application. Choisissez le projet et l’espace de travail que vous avez créés lors de la [configuration de votre environnement](setup-environment.md). À l’invite `Which extension point(s) do you wish to implement ?`, veillez à sélectionner `DX Asset Compute Worker` :
 
    ```sh
    $ aio app init <app-name>
@@ -90,17 +90,17 @@ Assurez-vous d’avoir accès à un [conteneur de stockage dans le cloud pris en
 #### Ajouter des informations d’identification au fichier ENV {#add-credentials-env-file}
 
 Insérez les informations d’identification suivantes de l’outil de développement dans le fichier `.env`. Le fichier se trouve à la racine de votre projet App Builder :
+<!--
+1. Add the absolute path to the private key file created while adding services to your App Builder Project:
 
-1. Ajoutez le chemin d’accès absolu au fichier de clé privée créé lors de l’ajout de services à votre projet App Builder :
-
-   ```conf
-   ASSET_COMPUTE_PRIVATE_KEY_FILE_PATH=
-   ```
+    ```conf
+    ASSET_COMPUTE_PRIVATE_KEY_FILE_PATH=
+    ```
 
    >[!NOTE]
    >
-   >JWT est obsolète et la clé privée ne peut être téléchargée. Pendant que nous travaillons à la mise à jour des outils de test, notez que les programmes de travail personnalisés créés à l’aide d’OAuth peuvent être déployés, mais les outils de développement ne fonctionneront pas.
-
+   >JWT is deprecated and Private Key is not available for download. While we are working on updating the testing tools, note that custom workers created using OAuth can be deployed but devtools would not work.
+-->
 1. Téléchargez le fichier à partir d’Adobe Developer Console. Accédez à la racine du projet et cliquez sur « Tout télécharger » dans l’angle supérieur droit. Le fichier est téléchargé avec `<namespace>-<workspace>.json` comme nom de fichier. Utilisez l’une des méthodes suivantes :
 
    * Renommez le fichier `console.json` et déplacez-le dans la racine de votre projet.
