@@ -2,10 +2,10 @@
 title: Comprendre le fonctionnement d’une application personnalisée
 description: Fonctionnement interne d’une application personnalisée  [!DNL Asset Compute Service]  pour faciliter votre compréhension.
 exl-id: a3ee6549-9411-4839-9eff-62947d8f0e42
-source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
+source-git-commit: f199cecfe4409e2370b30783f984062196dd807d
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '689'
+ht-degree: 99%
 
 ---
 
@@ -114,11 +114,11 @@ Une fois chaque rendu créé et stocké dans un fichier avec le chemin d’accè
 
 Le `batchWorker()` a un comportement différent. Il traite tous les rendus et les charge uniquement une fois qu’ils ont tous été traités.
 
-## Événements [!DNL Adobe I/O] {#aio-events}
+## [!DNL Adobe I/O Events] {#aio-events}
 
 Le SDK envoie des [!DNL I/O Events] Adobe pour chaque rendu. Ces événements sont de type `rendition_created` ou `rendition_failed`, selon le résultat. Pour plus d’informations, voir [Événements asynchrones Asset Compute](api.md#asynchronous-events).
 
-## Recevoir des événements [!DNL Adobe I/O] {#receive-aio-events}
+## Recevoir des [!DNL Adobe I/O Events] {#receive-aio-events}
 
 Le client ou la cliente interroge le journal des [!DNL I/O Events] Adobe en fonction de sa logique de consommation. L’URL de journal initiale est celle fournie dans la réponse de l’API `/register`. Il est possible d’identifier les événements à l’aide du paramètre `requestId`, présent dans les événements. C’est le même que celui renvoyé dans `/process`. Chaque rendu comporte un événement distinct, envoyé dès que le rendu a été chargé (ou a échoué). Une fois qu’elle reçoit un événement correspondant, la personne cliente peut afficher ou gérer les rendus résultants.
 
@@ -140,7 +140,7 @@ await Promise.all(events.map(event => {
 }));
 ```
 
-Pour plus d’informations sur la façon d’obtenir des événements de journal, voir API des [[!DNL I/O Events]  Adobe](https://developer.adobe.com/events/docs/guides/api/journaling_api/).
+Pour plus d’informations sur la façon d’obtenir des événements de journal, voir API des [[!DNL I/O Events]  Adobe](https://developer.adobe.com/events/docs/guides/api/journaling-api#).
 
 <!-- TBD:
 * Illustration of the controls/data flow.

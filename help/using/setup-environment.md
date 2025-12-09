@@ -2,10 +2,10 @@
 title: Définition de l’environnement de développement requis pour [!DNL Asset Compute Service]
 description: Configuration de l’environnement de développement [!DNL Asset Compute Service] pour commencer à créer et tester le code personnalisé.
 exl-id: 91c12889-01d8-4757-9bdd-f73c491cd9d5
-source-git-commit: db38b9dc27505aa7e04cf58a646005fc2e0e8782
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 Pour créer une configuration qui permet de développer pour [!DNL Asset Compute Service], suivez ces instructions et exigences.
 
-1. [Obtenez l’accès et les informations d’identification](https://developer.adobe.com/app-builder/docs/getting_started/#acquire-access-and-credentials) pour [!DNL Adobe Developer App Builder].
+1. [Obtenez l’accès et les informations d’identification](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#acquire-access-and-credentials) pour [!DNL Adobe Developer App Builder].
 
-1. [Configurez l’environnement local](https://developer.adobe.com/app-builder/docs/getting_started/#local-environment-set-up) et les outils nécessaires.
+1. [Configurez l’environnement local](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#local-environment-set-up) et les outils nécessaires.
 
 1. Voici d’autres outils pour commencer à développer avec aisance :
 
@@ -40,13 +40,13 @@ Pour créer une configuration qui permet de développer pour [!DNL Asset Compute
 
 1. Connectez-vous à [Adobe Developer Console](https://developer.adobe.com/console/user/servicesandapis). Assurez-vous que vous faites partie de la même organisation [!DNL Experience Cloud] que l’intégration [!DNL Experience Manager] as a [!DNL Cloud Service]. Pour plus d’informations sur l’Adobe Developer Console, consultez la [documentation de la Console](https://developer.adobe.com/developer-console/docs/guides/).
 
-1. [Créer un projet App Builder](https://developer.adobe.com/app-builder/docs/getting_started/first_app/). Cliquez sur **[!UICONTROL Créer un projet]** > **[!UICONTROL Projet à partir d’un modèle]**. Sélectionnez App Builder. Un projet App Builder est créé avec deux espaces de travail : `Production` et `Stage`. Ajoutez des espaces de travail supplémentaires, par exemple `Development`, selon les besoins.
+1. [Créer un projet App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#). Cliquez sur **[!UICONTROL Créer un projet]** > **[!UICONTROL Projet à partir d’un modèle]**. Sélectionnez App Builder. Un projet App Builder est créé avec deux espaces de travail : `Production` et `Stage`. Ajoutez des espaces de travail supplémentaires, par exemple `Development`, selon les besoins.
 
 1. Dans le projet App Builder, sélectionnez un espace de travail et abonnez-vous aux services requis pour Asset Compute. Cliquez sur **Add to Project** > **API** et ajoutez les services `Asset Compute`, `IO Events` et `IO Events Management`. Lors de l’ajout de la première API, une invite propose de créer une clé privée. Enregistrez ces informations sur votre ordinateur, car vous en aurez besoin pour tester votre application personnalisée à l’aide de l’outil de développement.
 
    >[!NOTE]
    >
-   >JWT est obsolète et la clé privée ne peut être téléchargée. Pendant que nous travaillons à la mise à jour des outils de test, notez que les programmes de travail personnalisés créés à l’aide d’OAuth peuvent être déployés, mais les outils de développement ne fonctionneront pas.
+   >JWT est obsolète et la clé privée ne peut pas être téléchargée. Pendant qu’Adobe met à jour les outils de test, notez que les programmes de travail personnalisés créés à l’aide d’OAuth peuvent être déployés, mais que les outils de développement ne fonctionneront pas.
 
 ## Étape suivante {#next-step}
 

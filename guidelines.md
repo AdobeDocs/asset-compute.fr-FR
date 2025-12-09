@@ -1,8 +1,8 @@
 ---
-source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: f199cecfe4409e2370b30783f984062196dd807d
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 91%
 
 ---
 # Instructions pour contribuer à la documentation
@@ -17,7 +17,7 @@ L’objectif est de placer cette documentation dès que possible entre les mains
 
 Pour améliorer continuellement la documentation, toute la communauté d’utilisateurs et d’utilisatrices peut apporter sa contribution. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
 
-## Normes de la documentation
+## Normes de documentation
 
 Toute contribution à la documentation sous la forme d’une demande d’extraction ou d’un problème doit être conforme aux normes de contribution et de documentation d’Adobe.
 
@@ -31,17 +31,17 @@ Font exception à cette règle les notes de mise à jour, qui permettent de rép
 
 Toutes les idées sous forme de contributions susceptibles d’améliorer la documentation sont les bienvenues. Toutefois, les commentaires, les problèmes et les requêtes d’extraction sont destinés uniquement aux *contributions*. Ils n’ont pas pour but de répondre à vos questions sur l’utilisation du produit, de mettre en œuvre des projets ou de résoudre des problèmes techniques.
 
-Toute question relative à l’utilisation ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [[!DNL Experience Manager] portail de service clientèle](https://experienceleague.adobe.com/fr?support-solution=Experience+Manager&amp;lang=fr#home) ou posée à la communauté [[!DNL Experience Manager] ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr).
+Toute question relative à l’utilisation ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [[!DNL Experience Manager] portail de service clientèle](https://experienceleague.adobe.com/?support-solution=Experience+Manager&lang=fr#home) ou auprès de la [[!DNL Experience Manager] communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr).
 
 ***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe***, et toute contribution de ce type ayant pour but de rechercher des réponses aux questions liées au support technique sera refusée.
 
-### Les contributions doivent clairement référencer les pages de documentation concernées.
+### Les contributions doivent clairement faire référence aux pages de documentation affectées
 
 Si vous créez une demande pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème à l’aide du lien **Modifier cette page** sur une page de documentation, le problème est créé automatiquement avec un lien vers la page.
 
 Cette méthode ne s’applique pas aux requêtes d’extraction qui, par nature, font référence aux pages concernées.
 
-## Directives relatives à la documentation
+## Instructions de documentation
 
 Adobe demande que toutes les contributions à notre documentation suivent certaines directives de style.
 

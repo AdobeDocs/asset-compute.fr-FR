@@ -2,10 +2,10 @@
 title: Contribuez aux composants open source d’ [!DNL Asset Compute Service]
 description: Contribuez aux composants open source d’ [!DNL Asset Compute Service].
 exl-id: 99a4b4d9-4709-4f8e-9f8c-96ba1783c4c3
-source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
+source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Consultez cette liste de [bibliothèques open source](https://github.com/adobe/a
 
 * [Prise en main d’Apache OpenWhisk](https://github.com/apache/openwhisk/tree/master/docs#getting-started-with-openwhisk).
 * [Lab : créez une IA composable avec des fonctions  [!DNL Adobe Sensei]  et Adobe [!DNL I/O Runtime]](https://opensource.adobe.com/adobe-sensei-ai-functions/index.html).
-* Questions fréquentes sur Adobe [[!DNL I/O Runtime] ](https://developer.adobe.com/runtime/docs/support/faq/)
+* Adobe [[!DNL I/O Runtime] FAQ](https://developer.adobe.com/app-builder/docs/intro_and_overview/faq#using-io-runtime).
 
 <!-- **TBD** for post-release:
 * Link to Adobe Developer App Builder open-source components.

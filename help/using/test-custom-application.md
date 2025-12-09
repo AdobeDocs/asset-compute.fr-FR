@@ -2,10 +2,10 @@
 title: Test et débogage d’une application [!DNL Asset Compute Service] personnalisée
 description: Test et débogage d’une application [!DNL Asset Compute Service] personnalisée.
 exl-id: c2534904-0a07-465e-acea-3cb578d3bc08
-source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
+source-git-commit: f199cecfe4409e2370b30783f984062196dd807d
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -164,7 +164,7 @@ Voir la liste complète et la description des [raisons des erreurs d’Asset Com
 
 Les étapes ci-dessous montrent comment déboguer votre application personnalisée à l’aide de Visual Studio Code. Il permet d’afficher les journaux en direct, d’atteindre des points d’arrêt, de parcourir le code, mais aussi de charger à nouveau en direct des modifications du code local à chaque activation.
 
-L’élément `aio` prêt à l’emploi automatise la plupart de ces étapes. Accédez à la section Débogage de l’application dans la [documentation Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/getting_started/first_app). Pour le moment, les étapes ci-dessous comportent une solution de contournement.
+L’élément `aio` prêt à l’emploi automatise la plupart de ces étapes. Accédez à la section Débogage de l’application dans la [documentation Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#). Pour le moment, les étapes ci-dessous comportent une solution de contournement.
 
 1. Installez la dernière version de [wskdebug](https://github.com/apache/openwhisk-wskdebug) depuis GitHub et, facultativement, [ngrok](https://www.npmjs.com/package/ngrok).
 
@@ -200,7 +200,7 @@ L’élément `aio` prêt à l’emploi automatise la plupart de ces étapes. Ac
 
    Récupérez le `ACTION NAME` à partir de la sortie de `aio app deploy`.
 
-1. Sélectionnez `wskdebug worker` dans la configuration d’exécution/de débogage et appuyez sur l’icône de lecture. Patientez jusqu’au démarrage et à l’affichage de la mention **[!UICONTROL Prêt pour les activations]** dans la fenêtre **[!UICONTROL Console de débogage]**.
+1. Sélectionnez `wskdebug worker` dans la configuration exécutée/déboguée et appuyez sur l’icône de lecture. Patientez jusqu’au démarrage et à l’affichage de la mention **[!UICONTROL Prêt pour les activations]** dans la fenêtre **[!UICONTROL Console de débogage]**.
 
 1. Cliquez sur **[!UICONTROL Exécuter]** dans l’outil Devtool. Vous pouvez voir les actions s’exécuter dans l’éditeur Visual Studio Code et les journaux commencer à s’afficher.
 

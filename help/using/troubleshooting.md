@@ -2,10 +2,10 @@
 title: Résolution des problèmes liés à [!DNL Asset Compute Service]
 description: Dépanner et déboguer les applications personnalisées à l’aide d’ [!DNL Asset Compute Service].
 exl-id: 017fff91-e5e9-4a30-babf-5faa1ebefc2f
-source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
+source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ Voici quelques conseils de dépannage génériques qui peuvent vous aider à ré
 
 ## Problèmes de connexion par l’intermédiaire d’Adobe [!DNL aio-cli] {#login-via-aio-cli}
 
-Si vous rencontrez des problèmes lors de la connexion à l’[!DNL Adobe Developer Console] [par le biais d’Adobe  [!DNL aio-cli]](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#3-signing-in-from-cli), ajoutez manuellement les informations d’identification requises pour le développement, le test et le déploiement de votre application personnalisée :
+Si vous rencontrez des problèmes lors de la connexion à l’[!DNL Adobe Developer Console] [par le biais d’Adobe  [!DNL aio-cli]](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#3-signing-in-from-cli), ajoutez manuellement les informations d’identification requises pour le développement, le test et le déploiement de votre application personnalisée :
 
 1. Accédez à votre projet et à votre espace de travail et à votre projet Adobe Developer App Builder sur [Adobe Developer Console](https://developer.adobe.com/console/user/servicesandapis), puis appuyez sur **[!UICONTROL Télécharger]** dans le coin supérieur droit. Ouvrez ce fichier JSON et enregistrez-le à un emplacement sécurisé sur votre ordinateur.
 

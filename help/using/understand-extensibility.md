@@ -2,10 +2,10 @@
 title: Comprendre l’extension d’ [!DNL Asset Compute Service]
 description: Quand et comment étendre les fonctionnalités d’ [!DNL Asset Compute Service] pour effectuer un traitement personnalisé des ressources.
 exl-id: 3b903364-34cc-44d5-9a03-24a0102cf85d
-source-git-commit: c6f747ebd6d1b17834f1af0837609a148804f8a9
+source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ Les applications personnalisées sont des applications [Adobe Developer App Bu
 Veillez à respecter les conditions préalables suivantes :
 
 * Les outils Adobe Developer App Builder sont installés sur votre ordinateur.
-* Organisation [!DNL Experience Cloud]. Pour plus d’informations, voir [Démarrer votre parcours App Builder](https://developer.adobe.com/app-builder/docs/getting_started/#acquire-access-and-credentials).
+* Organisation [!DNL Experience Cloud]. Pour plus d’informations, voir [Démarrer votre parcours App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#acquire-access-and-credentials).
 * [!DNL Experience Manager] as a [!DNL Cloud Service] doit être activé pour l’organisation Experience.
-* L’organisation [!DNL Adobe Experience Cloud] fait partie du programme de préversion pour l’équipe de développement [!DNL Adobe Developer App Builder]. Voir [Demander l’accès](https://developer.adobe.com/app-builder/docs/overview/getting_access).
+* L’organisation [!DNL Adobe Experience Cloud] fait partie du programme de préversion pour l’équipe de développement [!DNL Adobe Developer App Builder]. Voir [Demander l’accès](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials).
 * Veillez à ce que la personne chargée du développement dispose du rôle correspondant ou des autorisations d’administration au sein de l’organisation.
 * Veillez aussi à ce qu’Adobe [[!DNL aio-cli]](https://github.com/adobe/aio-cli) soit installé localement.
 

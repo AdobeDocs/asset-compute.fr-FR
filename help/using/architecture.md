@@ -2,10 +2,10 @@
 title: Architecture d’ [!DNL Asset Compute Service]
 description: Comment l’API, les applications et le SDK [!DNL Asset Compute Service] fonctionnent ensemble pour fournir un service de traitement des ressources natif dans le cloud.
 exl-id: 658ee4b7-5eb1-4109-b263-1b7d705e49d6
-source-git-commit: f15b9819d3319d22deccdf7e39c0f72728baaa39
+source-git-commit: f199cecfe4409e2370b30783f984062196dd807d
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [!DNL Asset Compute Service] est extensible en créant des applications personnalisées basées sur [!DNL Adobe Developer App Builder]. Ces applications personnalisées sont des applications [!DNL Project Adobe Developer App Builder] sans interface utilisateur graphique. Elles effectuent des tâches comme l’ajout d’outils de conversion personnalisés ou l’appel d’API externes pour réaliser des opérations sur des images.
 
-[!DNL Project Adobe Developer App Builder] est un framework destiné à créer et déployer des applications web personnalisées sur Adobe [!DNL `I/O Runtime`]. Pour créer des applications personnalisées, l’équipe de développement peut tirer parti de [!DNL React Spectrum] (boîte à outils d’interface d’utilisation d’Adobe), créer des microservices et des événements personnalisés, et orchestrer les API. Consultez la [documentation d’Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview).
+[!DNL Project Adobe Developer App Builder] est un framework destiné à créer et déployer des applications web personnalisées sur Adobe [!DNL `I/O Runtime`]. Pour créer des applications personnalisées, l’équipe de développement peut tirer parti de [!DNL React Spectrum] (boîte à outils d’interface d’utilisation d’Adobe), créer des microservices et des événements personnalisés, et orchestrer les API. Consultez la [documentation d’Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/#).
 
 Les fondements de l’architecture sont les suivants :
 
