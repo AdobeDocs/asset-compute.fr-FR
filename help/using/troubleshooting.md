@@ -2,10 +2,10 @@
 title: Résolution des problèmes liés à [!DNL Asset Compute Service]
 description: Dépanner et déboguer les applications personnalisées à l’aide d’ [!DNL Asset Compute Service].
 exl-id: 017fff91-e5e9-4a30-babf-5faa1ebefc2f
-source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
+source-git-commit: aed361a577fc53caec4118e417b1c0c814617b51
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 99%
+source-wordcount: '293'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,8 @@ Si vous rencontrez des problèmes lors de la connexion à l’[!DNL Adobe Develo
 
 1. Configurez le reste des [informations d’identification requises](develop-custom-application.md) pour l’outil de développement.
 
-<!-- TBD for later:
+<!-- 
+TBD for later:
 Add any best practices for developers in this section:
 * Any items to take care of when creating projects.
 * Any naming conventions, reserved keywords, etc.?

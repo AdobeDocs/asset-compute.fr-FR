@@ -2,10 +2,10 @@
 title: Comprendre le fonctionnement d’une application personnalisée
 description: Fonctionnement interne d’une application personnalisée  [!DNL Asset Compute Service]  pour faciliter votre compréhension.
 exl-id: a3ee6549-9411-4839-9eff-62947d8f0e42
-source-git-commit: f199cecfe4409e2370b30783f984062196dd807d
+source-git-commit: aed361a577fc53caec4118e417b1c0c814617b51
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 99%
+source-wordcount: '786'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,9 @@ L’[!DNL Asset Compute Service] envoie les requêtes de rendu d’application p
 
 Le [SDK Asset Compute](https://github.com/adobe/asset-compute-sdk#adobe-asset-compute-worker-sdk) utilisé par une application personnalisée traite la requête HTTP POST. Il gère également le téléchargement de la source, le chargement de rendus, l’envoi d’[!DNL I/O Events] Adobe et la gestion des erreurs.
 
-<!-- TBD: Add the application diagram. -->
+<!-- 
+TBD: Add the application diagram. 
+-->
 
 ### Code de l’application {#application-code}
 
@@ -142,7 +144,8 @@ await Promise.all(events.map(event => {
 
 Pour plus d’informations sur la façon d’obtenir des événements de journal, voir API des [[!DNL I/O Events]  Adobe](https://developer.adobe.com/events/docs/guides/api/journaling-api#).
 
-<!-- TBD:
+<!-- 
+TBD:
 * Illustration of the controls/data flow.
 * Basic overview, in text and not code, of how an application works.
 -->

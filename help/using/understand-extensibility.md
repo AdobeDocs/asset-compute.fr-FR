@@ -2,16 +2,16 @@
 title: Comprendre l’extension d’ [!DNL Asset Compute Service]
 description: Quand et comment étendre les fonctionnalités d’ [!DNL Asset Compute Service] pour effectuer un traitement personnalisé des ressources.
 exl-id: 3b903364-34cc-44d5-9a03-24a0102cf85d
-source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
+source-git-commit: aed361a577fc53caec4118e417b1c0c814617b51
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 99%
+source-wordcount: '304'
+ht-degree: 82%
 
 ---
 
 # Introduction à l’extensibilité {#introduction-to-extensibilty}
 
-De nombreuses exigences de rendu, comme la conversion des formats et le redimensionnement des images, sont prises en charge par les [Profils de traitement dans  [!DNL Experience Manager]  as a  [!DNL Cloud Service]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview). Les exigences plus complexes peuvent nécessiter une solution personnalisée adaptée aux besoins d’une entreprise. Il est ainsi possible d’étendre [!DNL Asset Compute Service] en créant des applications personnalisées appelées à partir de profils de traitement dans [!DNL Experience Manager]. Ces applications personnalisées s’adaptent aux [cas d’utilisation pris en charge](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use).
+De nombreuses exigences de rendu, comme la conversion des formats et le redimensionnement des images, sont prises en charge par les [Profils de traitement dans  [!DNL Experience Manager]  as a  [!DNL Cloud Service]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview). Les besoins commerciaux plus complexes peuvent nécessiter une solution personnalisée adaptée aux besoins d’une organisation. [!DNL Asset Compute Service] peut être étendu en créant des applications personnalisées qui sont appelées à partir des profils de traitement dans [!DNL Experience Manager]. Ces applications personnalisées s’adaptent aux [cas d’utilisation pris en charge](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use).
 
 >[!NOTE]
 >
@@ -30,7 +30,8 @@ Veillez à respecter les conditions préalables suivantes :
 * Veillez à ce que la personne chargée du développement dispose du rôle correspondant ou des autorisations d’administration au sein de l’organisation.
 * Veillez aussi à ce qu’Adobe [[!DNL aio-cli]](https://github.com/adobe/aio-cli) soit installé localement.
 
-<!-- TBD for later:
+<!-- 
+TBD for later:
 
 * What all accesses and licenses are required?
 * What all permissions are required to create, debug, and deploy custom applications?

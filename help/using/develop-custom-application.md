@@ -2,10 +2,10 @@
 title: Développer pour [!DNL Asset Compute Service]
 description: Créer des applications personnalisées à l’aide d’ [!DNL Asset Compute Service].
 exl-id: a0c59752-564b-4bb6-9833-ab7c58a7f38e
-source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
+source-git-commit: aed361a577fc53caec4118e417b1c0c814617b51
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 99%
+source-wordcount: '1722'
+ht-degree: 93%
 
 ---
 
@@ -72,7 +72,8 @@ Voir [Exemples d’applications personnalisées](#try-sample) pour consulter des
 
 Lorsque vous vous connectez tandis que l’application est en train de se créer, la plupart des informations d’identification d’App Builder sont collectées dans votre fichier ENV. Toutefois, l’utilisation de l’outil de développement nécessite des informations d’identification supplémentaires.
 
-<!-- TBD: Check if manual setup of credentials is required.
+<!-- 
+TBD: Check if manual setup of credentials is required.
 Manual set up of credentials is removed from troubleshooting and best practices page. Link was broken.
 If you did not log in, refer to our troubleshooting guide to [set up credentials manually](troubleshooting.md).
 -->
@@ -155,7 +156,7 @@ Voir [ici](test-custom-application.md) comment tester et déboguer votre applica
 Voici des exemples d’applications personnalisées :
 
 * [worker-basic](https://github.com/adobe/asset-compute-example-workers/tree/master/projects/worker-basic)
-* [worker-animal-pictures](https://github.com/adobe/asset-compute-example-workers/tree/master/projects/worker-animal-pictures)
+* [image-animal-travailleur](https://github.com/adobe/asset-compute-example-workers/tree/master/projects/worker-animal-pictures)
 
 ### Modèle d’application personnalisée {#template-custom-application}
 
@@ -191,7 +192,8 @@ exports.main = worker(async function (source, rendition) {
 
 Par exemple, [`worker-animal-pictures`](https://github.com/adobe/asset-compute-example-workers/blob/master/projects/worker-animal-pictures/worker-animal-pictures.js#L46) effectue une requête de récupération d’une URL statique à partir de Wikimedia à l’aide de la bibliothèque [`node-httptransfer`](https://github.com/adobe/node-httptransfer#node-httptransfer).
 
-<!-- TBD: Revisit later to see if this note is required.
+<!-- 
+TBD: Revisit later to see if this note is required.
 >[!NOTE]
 >
 >For extra authorization for these API calls, see [custom authorization checks](#custom-authorization-checks).
@@ -230,7 +232,8 @@ Par défaut, les applications personnalisées Asset Compute sont fournies avec 
 
 ### Accès à d’autres API d’Adobe {#access-adobe-apis}
 
-<!-- TBD: Revisit this section. Where do we document console workspace creation?
+<!-- 
+TBD: Revisit this section. Where do we document console workspace creation?
 -->
 
 Ajoutez les services d’API à l’espace de travail de la console [!DNL Asset Compute] créé lors de la configuration. Ces services font partie du jeton d’accès JWT généré par [!DNL Asset Compute Service]. Le jeton et les autres informations d’identification sont accessibles dans l’objet `params` d’action de l’application.

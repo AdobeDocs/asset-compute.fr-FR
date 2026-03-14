@@ -2,10 +2,10 @@
 title: Introduction au  [!DNL Asset Compute Service]
 description: '[!DNL Asset Compute Service] est un service de traitement des ressources natif dans le cloud destiné à réduire la complexité et à améliorer l’évolutivité.'
 exl-id: f8c89f65-5a94-44f3-aaac-4612ae291101
-source-git-commit: 63f83ff33ac6cd090fac4f6db18000155f464643
+source-git-commit: aed361a577fc53caec4118e417b1c0c814617b51
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 99%
+source-wordcount: '355'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,8 @@ Vous pouvez utiliser le service web [!DNL Asset Compute] afin de générer des m
 >
 >Le service n’assure pas le stockage des ressources. Les utilisateurs le fournissent et donnent des références aux emplacements de fichiers source et de rendu dans l’espace de stockage dans le cloud.
 
-<!-- TBD: Should this be mentioned in the docs?
+<!-- 
+TBD: Should this be mentioned in the docs?
 
 |Asset Compute Service does not do this|Expectations from implementing client|
 |---|---|
@@ -48,7 +49,8 @@ Vous pouvez utiliser le service web [!DNL Asset Compute] afin de générer des m
 >* [Documentation d’Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/#).
 >* [Formats de fichiers pris en charge pour le traitement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/file-format-support).
 
-<!-- **TBD:**
+<!-- 
+**TBD:**
 * Clarify the service can only be used within AEM as Cloud Service. The docs provided as context for custom application developers. Not to be used as a standalone service.
   ** and API as that plays a role in custom applications (accepting standard params, invoking Nui itself in the future, etc. (this is an outlook))
 
