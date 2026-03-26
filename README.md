@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVÉ
 
-Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/asset-compute.en>
+Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/asset-compute.fr-FR>
