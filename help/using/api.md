@@ -102,7 +102,7 @@ Cet appel d’API configure une personne cliente [!DNL Asset Compute] et fournit
 | Paramètre | Valeur |
 |--------------------------|------------------------------------------------------|
 | Méthode | `POST` |
-| Chemin d’accès | `/register` |
+| Chemin | `/register` |
 | En-tête `Authorization` | Tous les [en-têtes relatifs aux autorisations](#authentication-and-authorization). |
 | En-tête `x-request-id` | Facultatif. Il peut être défini par les clientes et clients pour un identifiant unique de bout en bout des demandes de traitement sur l’ensemble des systèmes. |
 | Corps de la requête | Doit être vide. |
@@ -159,7 +159,7 @@ Cet appel d’API annule l’enregistrement d’une personne cliente [!DNL Asset
 | Paramètre | Valeur |
 |--------------------------|------------------------------------------------------|
 | Méthode | `POST` |
-| Chemin d’accès | `/unregister` |
+| Chemin | `/unregister` |
 | En-tête `Authorization` | Tous les [en-têtes relatifs aux autorisations](#authentication-and-authorization). |
 | En-tête `x-request-id` | Facultatif. Il peut être défini par les clientes et les clients pour un identifiant unique de bout en bout des demandes de traitement sur l’ensemble des systèmes. |
 | Corps de la requête | Vide. |
@@ -227,7 +227,7 @@ Les fichiers binaires sont référencés à l’aide d’URL, telles que les URL
 | Paramètre | Valeur |
 |--------------------------|------------------------------------------------------|
 | Méthode | `POST` |
-| Chemin d’accès | `/process` |
+| Chemin | `/process` |
 | Type MIME | `application/json` |
 | En-tête `Authorization` | Tous les [en-têtes relatifs aux autorisations](#authentication-and-authorization). |
 | En-tête `x-request-id` | Facultatif. Les clientes et clients peuvent définir un identifiant unique de bout en bout pour effectuer le suivi des requêtes de traitement sur l’ensemble des systèmes. |
