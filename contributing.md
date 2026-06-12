@@ -58,5 +58,5 @@ Adobe se réjouit de toute contribution et examine votre contribution si elle es
 
 ## Informations supplémentaires
 
-Consultez le [Guide du contributeur aux documents &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
+Consultez le [Guide du contributeur aux documents &#x200B;](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
 
