@@ -13,7 +13,7 @@ Ce fichier décrit comment apporter votre contribution et indique les directives
 
 ## Code de conduite d’Adobe Open Source
 
-Ce projet a adopté le [code de conduite d’Adobe Open Source](code-of-conduct.md). En contribuant à la documentation d’AEM, vous acceptez de respecter ce code de conduite. Signalez tout comportement inacceptable à [](mailto:Grp-opensourceoffice@adobe.com).
+Ce projet a adopté le [code de conduite d’Adobe Open Source](code-of-conduct.md). En contribuant à la documentation d’AEM, vous acceptez de respecter ce code de conduite. Signalez tout comportement inacceptable à [&#128279;](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Instructions relatives à la contribution
 
@@ -58,5 +58,5 @@ Adobe se réjouit de toute contribution et examine votre contribution si elle es
 
 ## Informations supplémentaires
 
-Consultez le [Guide du contributeur aux documents ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
+Consultez le [Guide du contributeur aux documents &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
 
