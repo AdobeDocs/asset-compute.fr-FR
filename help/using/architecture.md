@@ -1,24 +1,27 @@
 ---
-title: Architecture d’ [!DNL Asset Compute Service]
-description: Comment l’API, les applications et le SDK [!DNL Asset Compute Service] fonctionnent ensemble pour fournir un service de traitement des ressources natif dans le cloud.
+title: Architecture de [!DNL Asset Compute Service]
+description: Comment [!DNL Asset Compute Service] API, les applications et SDK fonctionnent ensemble pour fournir un service de traitement des ressources natif dans le cloud.
 exl-id: 658ee4b7-5eb1-4109-b263-1b7d705e49d6
 TQID: https://experienceleague.adobe.com/HM9aYFHI98DFs4rfcStr-mpAfYVrjvMtlO6N7azO-20
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 2510f77fed8d0f0708e09f32d0b13a437d2ede4f
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 98%
-
+source-wordcount: '495'
+ht-degree: 95%
 ---
-
 # Architecture de [!DNL Asset Compute Service] {#overview}
 
 [!DNL Asset Compute Service] repose sur la plateforme Adobe [!DNL `I/O Runtime`] sans serveur. Il permet la prise en charge des ressources par les services de contenu Adobe Sensei. Le client appelant (uniquement si [!DNL Experience Manager] as a [!DNL Cloud Service] est pris en charge) reçoit les informations générées par Adobe Sensei qu’il a recherchées pour la ressource. Les informations renvoyées sont au format JSON.
@@ -41,7 +44,7 @@ Les fondements de l’architecture sont les suivants :
 
 L’architecture se compose des parties suivantes :
 
-* **Une couche d’API et d’orchestration** reçoit les requêtes (au format JSON) qui demandent au service de transformer une ressource source en différents rendus. Ces requêtes sont asynchrones et renvoyées avec un ID d’activation équivalent à l’ID du traitement. Les instructions sont purement déclaratives et, pour tous les travaux de traitement standard (par exemple, génération de miniatures, extraction de texte), les consommateurs et consommatrices ne précisent que le résultat souhaité, mais pas les applications qui traitent certains rendus. Les fonctionnalités d’API génériques telles que l’authentification, l’analyse et la limitation de débit sont gérées à l’aide de la passerelle API d’Adobe en lien avec le service et gèrent toutes les requêtes adressées à Runtime [!DNL Adobe I/O]. Le routage de l’application est effectué dynamiquement par la couche d’orchestration. Les clientes et clients définissent des applications personnalisées pour des rendus spécifiques, qui s’accompagnent de leur propre ensemble de paramètres uniques. Il est possible de mettre intégralement en parallèle l’exécution des applications, car il s’agit de fonctions distinctes sans serveur dans Adobe [!DNL `I/O Runtime`].
+* **Une couche d’API et d’orchestration** reçoit les requêtes (au format JSON) qui demandent au service de transformer une ressource source en différents rendus. Ces requêtes sont asynchrones et renvoient un ID d’activation, qui correspond à l’ID du traitement. Les instructions sont purement déclaratives et, pour tous les travaux de traitement standard (par exemple, génération de miniatures, extraction de texte), les consommateurs et consommatrices ne précisent que le résultat souhaité, mais pas les applications qui traitent certains rendus. Les fonctionnalités d’API génériques telles que l’authentification, l’analyse et la limitation de débit sont gérées à l’aide de la passerelle API d’Adobe en lien avec le service et gèrent toutes les requêtes adressées à Runtime [!DNL Adobe I/O]. Le routage de l’application est effectué dynamiquement par la couche d’orchestration. Les clientes et clients définissent des applications personnalisées pour des rendus spécifiques, qui s’accompagnent de leur propre ensemble de paramètres uniques. Il est possible de mettre intégralement en parallèle l’exécution des applications, car il s’agit de fonctions distinctes sans serveur dans Adobe [!DNL `I/O Runtime`].
 
 * **Applications de traitement des ressources** spécialisées dans certains types de formats de fichiers ou de rendus de cible. D’un point de vue conceptuel, une application ressemble au concept pipe d’Unix® : un fichier d’entrée est transformé en un ou plusieurs fichiers de sortie.
 
